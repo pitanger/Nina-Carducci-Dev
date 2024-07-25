@@ -1,0 +1,11 @@
+LCP : 9s : priorité
+
+Thread principal : 6.1s : deuxième priorité
+
+Exécution JS : 3.8s : troisième priorité
+
+Code tiers : 2.2s : 4e priorité
+
+Ressources bloquant le rendu : 1.4s : 5e priorité.
+
+Trop de DOM : 1s : 6e priorité.
