@@ -15,16 +15,8 @@
 	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-	<div itemscope>
-		<span itemprop="adresse postale">3 rue des Jardins</span>
-		<span itemprop="ville">Bordeaux</span>
-		<span itemprop="adresse postale">Nouvelle-Aquitaine</span>
-		<span itemprop="code postal">33000</span>
-		<span itemprop="Adresse email">nina.carducci@hotmail.com</span>
-		<span itemprop="numéro de téléphone">0612345678</span>
-	</div>
 <div class="top-header">
-	<h1 class="name">Nina Carducci, photographe professionnelle</h3>
+	<h1 class="name" itemprop="nom">Nina Carducci</h1>
 	<div class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
@@ -68,7 +60,7 @@
 	<div class="picture left">
 		<img src="./assets/images/nina.png" alt="nina-carducci">
 	</div>
-	<div id="about-me">
+	<div id="about-me" itemprop="introduction">
 		<h2 class="about-me__title">A propos de moi</h3>
 		<p class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
 		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
@@ -76,7 +68,7 @@
 	</div>
 </div>
 <div id="gallery">
-	<h2 class="title">Portfolio</h3>
+	<h2 class="title" itemprop="portfolio">Portfolio</h3>
 	<div class="container py-3">
 		<div class="gallery" style="display: none">
 			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/concert-lumieres-rouges.jpg" alt="concert-lumieres-rouges"/>
@@ -100,7 +92,7 @@
 	</div>
 </div>
 <div id="services">
-	<h2 class="title">Mes services</h3>
+	<h2 class="title" itemprop="services">Mes services</h2>
 	<div class="container">
 		<div class="service">
 			<div class="service__description">
@@ -138,7 +130,7 @@
 <div class="quote">
 	<figure>
 		<blockquote>
-			<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h1>
+			<h2 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h2>
 		</blockquote>
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
@@ -146,7 +138,7 @@
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
-			<h2>Une question ? Une demande de devis ?</h3>
+			<h2>Une question ? Une demande de devis ?</h2>
 			<p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
 			<form action="" method="post">
 				<label>Nom<input type="text" name="nom" id="nom"></label>				
