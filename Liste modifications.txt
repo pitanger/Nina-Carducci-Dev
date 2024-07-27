@@ -13,4 +13,4 @@ CSS / JS non-utilisé : 40 Kio : 6e priorité.
 
 SEO technique : 
 
-minifié JS
+minifié JS, minifié CSS, Corrigé la hiérarchie des H
