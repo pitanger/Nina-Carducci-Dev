@@ -9,3 +9,8 @@ Sources bloquant le rendu : 450 ms:  4e priorité
 Images au format nouvel gen (webmp...) : 9 000 Ko : 5e priorité.
 
 CSS / JS non-utilisé : 40 Kio : 6e priorité.
+
+
+SEO technique : 
+
+minifié JS
