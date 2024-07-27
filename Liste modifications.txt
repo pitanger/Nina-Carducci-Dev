@@ -13,4 +13,12 @@ CSS / JS non-utilisé : 40 Kio : 6e priorité.
 
 SEO technique : 
 
-minifié JS, minifié CSS, Corrigé la hiérarchie des H
+minifié JS, minifié CSS, Corrigé la hiérarchie des H, amélioré meta descri,
+Rajouté des itemprops pour aider le crawler à détecter la location.
+
+
+Axes d'amélioration :
+Blog avec articles optimisés rédaction SEO
+Google My Business
+Annuaires : à éviter.
+Considérer un plug in avis (Trustpilot...)
