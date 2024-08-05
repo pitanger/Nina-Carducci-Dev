@@ -16,8 +16,125 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
+
+
+    <script type="application/ld+json">
+        {
+          "@context":"https://schema.org",
+          "@type":"ItemList",
+          "itemListElement":[
+            {
+                
+              "@type":"ListItem",
+              "name": "Crossing street japan",
+              "position":1,
+              "url":"./assets/images/slider/photo-crossing-street-japan.jpg"
+            },
+            {
+              "@type":"ListItem",
+              "name": "photo party",
+              "position":2,
+              "url":"./assets/images/slider/photo-party.jpg"
+            },
+            {
+              "@type":"ListItem",
+              "name": "photo marriage",
+              "position":3,
+              "url":"./assets/images/slider/photo-marriage.jpg"
+            }
+          ]
+        } </script>
+       
+    <script type="application/ld+json"> {
+            "@context": "https://schema.org",
+            "@type": "ProfilePage",
+            "mainEntity": {
+              "@type": "Person",
+              "name": "Nina Carducci",
+              "description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</p>
+              <p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+                  C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.",
+              "image": "./assets/images/nina.png",
+              "url":"https://pitanger.github.io/Nina-Carducci-Dev"
+            }
+          }
+        </script>
+        <script type="application/ld+json">
+          {
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            "name": "Shooting photo",
+            "image": [
+                "./assets/images/gallery/entreprise/patron-homme.jpg",
+                "./assets/images/gallery/portraits/portait-homme-soleil-yeux.jpg",
+                "./assets/images/gallery/entreprise/secretaire-souriant.jpg"
+            ],
+            "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
+            "offers": {
+                "@type": "Offer",
+                "price": "350",
+                "priceCurrency": "EUR"
+            },
+              "author": {
+                "@type": "Person",
+                "name": "Nina Carducci"
+              }
+            }
+        </script>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "Retouches",
+                "image": [
+                    "./assets/images/gallery/concerts/concert-fumee.jpg",
+                    "./assets/images/gallery/mariage/mains.jpg"
+                ],
+                "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "50",
+                    "priceCurrency": "EUR"                    
+                },
+                  "author": {
+                    "@type": "Person",
+                    "name": "Nina Carducci"
+                  }
+                }          
+            </script>
+            <script type="application/ld+json">
+                {
+                "@context": "https://schema.org/",
+                "@type": "Product",
+                "name": "Album photos",
+                "image": [
+                    "./assets/images/gallery/concerts/concert-lumieres-rouges.jpg",
+                    "./assets/images/gallery/mariage/marriage-tropiques.jpg"
+                ],
+                "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé",
+                "offers": {
+                    "@type": "Offer",
+                    "price": "400",
+                    "priceCurrency": "EUR"
+                },
+                    "author": {
+                    "@type": "Person",
+                    "name": "Nina Carducci"
+                    }
+                }
+        </script>
+        <script type="application/ld+json">
+
+
+        </script>
+
+       
+
+
+
+
 </head>
-<body vocab="https://schema.org/">
+<body>
     <div class="top-header">
         <h1 class="name" itemprop="name">Nina Carducci</h1>
         <div class="nav" itemscope itemtype="https://schema.org/SiteNavigationElement">
@@ -37,7 +154,7 @@
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner">
+            <div class="carousel-inner" itemListElement >
                 <div class="carousel-item active">
                     <img src="./assets/images/slider/photo-crossing-street-japan.jpg" class="d-block w-100" alt="photo-crossing-street-japan" itemprop="contentUrl">
                 </div>
@@ -141,7 +258,7 @@
             <div class="form-container" itemscope itemtype="https://schema.org/ContactPage">
                 <h2 itemprop="name">Une question ? Une demande de devis ?</h2>
                 <p> N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures</p>
-                <form action="" method="post" itemscope itemtype="https://schema.org/ContactForm">
+                <form action="" method="post" itemscope itemtype="https://schema.org/ContactPoint">
                     <label>Nom<input type="text" name="nom" id="nom" itemprop="name"></label>                
                     <label>Email<input type="email" name="email" id="email" autocomplete="email" itemprop="email"></label>                
                     <label>Message<textarea name="message" id="message" cols="30" rows="10" itemprop="description"></textarea>

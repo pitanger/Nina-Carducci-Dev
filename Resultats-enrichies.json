@@ -1,0 +1,162 @@
+[
+    {
+        "@context": "https://schema.org/",
+        "@type": "WebSite",
+        "name": "Nina Carducci, photographe professionnelle",
+        "description": "Bienvenue sur mon site de photographe professionnelle ! Je propose des services de photo, retouches et albums. Demandez un devis dès maintenant, réponse sous 24 h !",
+        "url": "https://pitanger.github.io/Nina-Carducci-Dev",
+        "image": "./assets/images/nina.png"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Person",
+        "name": "Nina Carducci",
+        "jobTitle": "Photographe",
+        "description": "Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.",
+        "image": "./assets/images/nina.png"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "SiteNavigationElement",
+        "url": "#about",
+        "name": "À propos"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "SiteNavigationElement",
+        "url": "#gallery",
+        "name": "Galerie"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "SiteNavigationElement",
+        "url": "#services",
+        "name": "Service"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "SiteNavigationElement",
+        "url": "#contact",
+        "name": "Contact"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/slider/photo-crossing-street-japan.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/slider/photo-party.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/slider/photo-marriage.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/concerts/concert-lumieres-rouges.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/entreprise/patron-homme.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/entreprise/collegues-employes.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/mariage/mains.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/portraits/portait-homme-soleil-yeux.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/mariage/marriage-tropiques.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/portraits/portait-femme.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/concerts/concert-fumee.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ImageObject",
+        "contentUrl": "./assets/images/gallery/entreprise/secretaire-souriant.jpg"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Quotation",
+        "text": "Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.",
+        "author": "Richard Avedon"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "name": "Shooting photo",
+        "description": "Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos",
+        "offers": {
+            "@type": "Offer",
+            "price": "350",
+            "priceCurrency": "EUR",
+            "description": "Matériel, déplacement inclus"
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "name": "Retouches",
+        "description": "Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications",
+        "offers": {
+            "@type": "Offer",
+            "price": "50",
+            "priceCurrency": "EUR",
+            "description": "2 AR par photo"
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Service",
+        "name": "Album photos",
+        "description": "Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé",
+        "offers": {
+            "@type": "Offer",
+            "price": "400",
+            "priceCurrency": "EUR",
+            "description": "30 pages recto/verso"
+        }
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "Quotation",
+        "text": "De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie",
+        "author": "Richard Avedon"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ContactPage",
+        "name": "Une question ? Une demande de devis ?"
+    },
+    {
+        "@context": "https://schema.org/",
+        "@type": "ContactPoint",
+        "name": "Nom",
+        "email": "Email",
+        "description": "Message"
+    }
+]
