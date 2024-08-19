@@ -23,7 +23,14 @@
     padding-inline: 100px;
     padding-block: 100px;
 }
-
+.picture.left::before,
+.picture.right::before {
+    content: " ";
+    width: 374px;
+    height: 329px;
+    bottom: 0;
+    z-index: -1;
+}
 #about,
 #contact .container,
 .mg-next,
@@ -77,7 +84,11 @@ body {
 #about {
     background-color: #f6d2b8;
 }
-
+.picture.left::before {
+    background-color: #e5975f;
+    position: absolute;
+    left: 0;
+}
 .picture {
     flex: 1;
     margin: 0 20px;
@@ -113,7 +124,7 @@ body {
 .nav-pills .nav-link.active-tag,
 .nav-pills .show > .nav-link {
     color: #fff;
-    background-color: #8F8238;
+    background-color: #beb45a;
     border-radius: 0;
 }
 .nav-link:hover {
@@ -123,7 +134,11 @@ body {
     margin-bottom: 0 !important;
     padding: 0;
 }
-
+.item-column::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
 .gallery-item {
     position: absolute;
     width: 100%;
@@ -163,8 +178,16 @@ form textarea {
     margin: auto;
     background-color: #a8d5d8;
 }
-
-
+#services .container::before {
+    content: " ";
+    background-color: #1c6474;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
 #services .container {
     justify-content: space-between;
     display: flex;
@@ -183,8 +206,11 @@ form textarea {
     margin: auto;
     background-color: #d8d3a8;
 }
-
-
+.picture.right::before {
+    background-color: #beb45a;
+    position: absolute;
+    right: 0;
+}
 form {
     flex-direction: column;
     width: 70%;
@@ -220,6 +246,13 @@ input[type="submit"] {
     }
 }
 @media all and (max-width: 1000px) {
+    .picture.left::before,
+    .picture.right::before {
+        height: 30%;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
     #about,
     #contact .container,
     #services .container {
@@ -228,7 +261,11 @@ input[type="submit"] {
     .picture {
         width: 50%;
     }
-
+    .picture.left::before {
+        bottom: auto;
+        top: 0;
+        left: 0;
+    }
     .about-me__title {
         text-align: center;
         margin-top: 1em;
@@ -242,11 +279,21 @@ input[type="submit"] {
     .service__description {
         margin-bottom: 1em;
     }
-
+    #services .container::before {
+        width: 30%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        z-index: 0;
+    }
     #contact .picture.right {
         margin-top: 1em;
     }
-
+    .picture.right::before {
+        bottom: 0;
+        right: 0;
+    }
 }
 @media all and (max-width: 650px) {
     .top-header {
@@ -263,7 +310,10 @@ input[type="submit"] {
         padding-block: 1em;
         text-align: center;
     }
-
+    .picture.left::before,
+    .picture.right::before {
+        height: 150px;
+    }
     #services .container {
         align-items: center;
     }
@@ -307,7 +357,14 @@ input[type="submit"] {
     padding-inline: 100px;
     padding-block: 100px;
 }
-
+.picture.left::before,
+.picture.right::before {
+    content: " ";
+    width: 374px;
+    height: 329px;
+    bottom: 0;
+    z-index: -1;
+}
 #about,
 #contact .container,
 .mg-next,
@@ -361,7 +418,11 @@ body {
 #about {
     background-color: #f6d2b8;
 }
-
+.picture.left::before {
+    background-color: #e5975f;
+    position: absolute;
+    left: 0;
+}
 .picture {
     flex: 1;
     margin: 0 20px;
@@ -451,7 +512,16 @@ form textarea {
     margin: auto;
     background-color: #a8d5d8;
 }
-
+#services .container::before {
+    content: " ";
+    background-color: #1c6474;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
 #services .container {
     justify-content: space-between;
     display: flex;
@@ -470,7 +540,11 @@ form textarea {
     margin: auto;
     background-color: #d8d3a8;
 }
-
+.picture.right::before {
+    background-color: #beb45a;
+    position: absolute;
+    right: 0;
+}
 form {
     flex-direction: column;
     width: 70%;
@@ -506,6 +580,13 @@ input[type="submit"] {
     }
 }
 @media all and (max-width: 1000px) {
+    .picture.left::before,
+    .picture.right::before {
+        height: 30%;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
     #about,
     #contact .container,
     #services .container {
@@ -514,7 +595,11 @@ input[type="submit"] {
     .picture {
         width: 50%;
     }
-
+    .picture.left::before {
+        bottom: auto;
+        top: 0;
+        left: 0;
+    }
     .about-me__title {
         text-align: center;
         margin-top: 1em;
@@ -528,11 +613,21 @@ input[type="submit"] {
     .service__description {
         margin-bottom: 1em;
     }
-
+    #services .container::before {
+        width: 30%;
+        height: 100%;
+        bottom: 0;
+        right: 0;
+        left: auto;
+        z-index: 0;
+    }
     #contact .picture.right {
         margin-top: 1em;
     }
-
+    .picture.right::before {
+        bottom: 0;
+        right: 0;
+    }
 }
 @media all and (max-width: 650px) {
     .top-header {
@@ -549,7 +644,10 @@ input[type="submit"] {
         padding-block: 1em;
         text-align: center;
     }
-
+    .picture.left::before,
+    .picture.right::before {
+        height: 150px;
+    }
     #services .container {
         align-items: center;
     }
