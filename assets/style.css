@@ -123,11 +123,7 @@ body {
     margin-bottom: 0 !important;
     padding: 0;
 }
-.item-column::after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
+
 .gallery-item {
     position: absolute;
     width: 100%;
