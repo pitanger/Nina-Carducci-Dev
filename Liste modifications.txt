@@ -16,11 +16,16 @@ SEO technique :
 minifié JS, minifié CSS, Corrigé la hiérarchie des H, amélioré meta descri,
 Rajouté des itemprops pour aider le crawler à détecter la location.
 Réduction des images, optimisation de leur qualité, changement de format en WEBP
+Amélioration du LCP afin de réduire au mieux la taille de la première image "Photo crossing street japan"
 changement de couleur a l'active des boutons des filtres (teinte plus foncée)
+
+SEO local :
+
+Rajouté toutes les informations décrites dans le mail (Pays, région, ville, code postal, adresse, téléphone, mail)
 
 
 Axes d'amélioration :
 Blog avec articles optimisés rédaction SEO
 Google My Business
-Annuaires : à éviter.
+Annuaires globaux : à éviter.
 Considérer un plug in avis (Trustpilot...) / s'inscrire sur un annuaire spécialisé
