@@ -14,10 +14,11 @@ CSS / JS non-utilisé : 40 Kio : 6e priorité.
 SEO technique : 
 
 minifié JS, minifié CSS, Corrigé la hiérarchie des H, amélioré meta descri,
-Rajouté des itemprops pour aider le crawler à détecter la location.
+Rajouté de différents meta name comme le meta name twitter ainsi qu'une image adaptée
 Réduction des images, optimisation de leur qualité, changement de format en WEBP
 Amélioration du LCP afin de réduire au mieux la taille de la première image "Photo crossing street japan"
 changement de couleur a l'active des boutons des filtres (teinte plus foncée)
+Retirer des ressources bootstrap inutiles
 
 SEO local :
 
@@ -29,3 +30,6 @@ Blog avec articles optimisés rédaction SEO
 Google My Business
 Annuaires globaux : à éviter.
 Considérer un plug in avis (Trustpilot...) / s'inscrire sur un annuaire spécialisé
+Prendre des photos de la même dimension à chaque fois pour éviter d'avoir des caroussels d'images de taille différente
+
+Cahier des charges : https://onedrive.live.com/edit?action=editnew&id=50D25257ED501E2D!12566&resid=50D25257ED501E2D!12566&ithint=file%2cdocx&ct=1724666307833&wdNewAndOpenCt=1724666307484&wdOrigin=OFFICECOM-WEB.START.NEW&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=83e64563-ce81-4fa4-ac0d-1be585e028ee&wdo=2&cid=50d25257ed501e2d
